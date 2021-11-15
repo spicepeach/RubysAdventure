@@ -122,3 +122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2716a74082946f84697f8836652d45f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectedClip: {fileID: 8300000, guid: af5f8b64e3f58f24c87ff8f789b04f6c, type: 3}
+  healthEffect: {fileID: 3030234666002278130, guid: 3d8a26679c5147540afa2c8fcbbf3492,
+    type: 3}

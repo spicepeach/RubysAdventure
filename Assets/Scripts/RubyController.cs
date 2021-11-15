@@ -28,6 +28,11 @@ public class RubyController : MonoBehaviour
 
     AudioSource audioSource;
 
+    public ParticleSystem healthEffect;
+
+    public ParticleSystem hitEffect;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -115,6 +120,7 @@ public class RubyController : MonoBehaviour
 
             isInvincible = true;
             invincibleTimer = timeInvincible;
+            hitEffect.Play();
         }
 
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
